@@ -36,7 +36,7 @@ export default function MenuItemCard({ item, imageSrc }: Props) {
         </div>
         <div className="flex items-center justify-between mt-2 pt-2 border-t border-black/5">
           <span className="font-mono text-base font-semibold text-[#1a1a1a]">
-            ${item.price.toFixed(2)}
+            ₹{item.price}
           </span>
           <span className="text-xs text-[#8a8a8a]">{item.servingSize}</span>
         </div>
